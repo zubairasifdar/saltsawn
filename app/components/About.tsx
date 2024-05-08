@@ -1,8 +1,6 @@
-// Import necessary libraries
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
-// Define the About component
 const About = () => {
   return (
     <div className="bg-gray-100">
@@ -24,5 +22,4 @@ const About = () => {
   );
 };
 
-// Export the About component
 export default About;
