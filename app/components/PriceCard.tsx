@@ -12,7 +12,7 @@ interface PriceCardProps {
 
 const PriceCard: React.FC<PriceCardProps> = ({ plan }) => {
   return (
-    <div className="bg-gray-200 rounded-lg p-6 flex flex-col justify-between items-start">
+    <div className="border border-slate-400 rounded-xl p-6 flex flex-col justify-between items-start">
       <h3 className="text-xl font-semibold text-gray-800 mb-4">{plan.title}</h3>
       <p className="text-gray-700 mb-4">{plan.description}</p>
       <div className="text-2xl font-bold text-gray-800 mb-4">{plan.price}</div>
