@@ -4,6 +4,7 @@ import About from './components/About'
 import Prices from './components/Prices'
 import ProjectsSection from './components/Projects'
 import ContactSection from './components/ContactSection'
+import Employees from './components/Employees'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <About />
       <Prices />
       <ProjectsSection />
+      <Employees />
       <ContactSection />
     </>
   )

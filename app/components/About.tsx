@@ -8,7 +8,7 @@ const About = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 md:mb-10">About Us</h1>
           <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
-            We are a dynamic duo passionate about creating stunning web experiences. Our team consists of a web developer Zubair Dev and a beginner UI/UX designer Ali.
+            We are a dynamic duo who will be creating stunning web experiences. Our team consists of a web developer Zubair Dev and a beginner UI/UX designer Ali.
           </p>
           <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6 md:mb-8">
             Together, we aim to blend technical expertise with creative design to deliver websites that not only look beautiful but also function seamlessly.

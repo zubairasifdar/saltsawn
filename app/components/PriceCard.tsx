@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from './Button';
 
+import Link from 'next/link'
+
 interface PriceCardProps {
   plan: {
     title: string;
@@ -21,7 +23,13 @@ const PriceCard: React.FC<PriceCardProps> = ({ plan }) => {
           <li key={index}>{feature}</li>
         ))}
       </ul>
-      <Button text='Request Package' />
+      <Link
+        href={`/quote/?title=${encodeURIComponent(plan.title)}&price=${encodeURIComponent(plan.price)}&features=${encodeURIComponent(plan.features.join(', '))}`}
+        className='border-slate-400 shadow-md hover:bg-slate-800 hover:text-white transition-[0.3s] border rounded-xl px-4 mt-4 py-3'
+      >
+        Request Package
+      </Link>
+
     </div>
   );
 };
